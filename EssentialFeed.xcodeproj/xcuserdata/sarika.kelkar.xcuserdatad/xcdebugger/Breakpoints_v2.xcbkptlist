@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5DDE93C2-8EAE-4E06-9AEB-FAA673427A63"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3F5473E-AF79-4CB7-BD50-0750A18155D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialFeedTests/RemoteFeedLoaderTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "complete(withStatusCode:data:at:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C3F5473E-AF79-4CB7-BD50-0750A18155D9 - b1328d705810d634"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeedTests.RemoteFeelLoaderTests.HTTPClientSpy.complete(withStatusCode: Swift.Int, data: Foundation.Data, at: Swift.Int) -&gt; ()"
+                  moduleName = "EssentialFeedTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarika.kelkar/Desktop/EssentialFeed/EssentialFeedTests/RemoteFeedLoaderTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "570">
+               </Location>
+               <Location
+                  uuid = "C3F5473E-AF79-4CB7-BD50-0750A18155D9 - b1328d705810db5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeedTests.RemoteFeelLoaderTests.HTTPClientSpy.complete(withStatusCode: Swift.Int, data: Foundation.Data, at: Swift.Int) -&gt; ()"
+                  moduleName = "EssentialFeedTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarika.kelkar/Desktop/EssentialFeed/EssentialFeedTests/RemoteFeedLoaderTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "570">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45AC4484-F72E-4FC5-9CB9-50B6FBEE8F61"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialFeedTests/Feed API/ URLSessionHTTPClientTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
+            landmarkName = "URLSessionHTTPClientTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2741E4B4-C7F8-4FCC-9F39-EF1314EC2C97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialFeedAPIEndToEndTests/EssentialFeedAPIEndToEndTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "test_endToEndTestServerGETFeedResult_matchesFixedTestAccountData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2741E4B4-C7F8-4FCC-9F39-EF1314EC2C97 - e62bf6c30421cc8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeedAPIEndToEndTests.EssentialFeedAPIEndToEndTests.test_endToEndTestServerGETFeedResult_matchesFixedTestAccountData() -&gt; ()"
+                  moduleName = "EssentialFeedAPIEndToEndTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarika.kelkar/Desktop/EssentialFeed/EssentialFeedAPIEndToEndTests/EssentialFeedAPIEndToEndTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "3498">
+               </Location>
+               <Location
+                  uuid = "2741E4B4-C7F8-4FCC-9F39-EF1314EC2C97 - e62bf6c30421cc8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeedAPIEndToEndTests.EssentialFeedAPIEndToEndTests.test_endToEndTestServerGETFeedResult_matchesFixedTestAccountData() -&gt; ()"
+                  moduleName = "EssentialFeedAPIEndToEndTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sarika.kelkar/Desktop/EssentialFeed/EssentialFeedAPIEndToEndTests/EssentialFeedAPIEndToEndTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "3521">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "575A40E3-F6F1-4447-9D86-319CA44878FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialFeedTests/Feed API/RemoteFeedLoaderTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "get(from:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "410D980A-A532-4498-9464-0AFE2780BDAD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialFeedTests/Feed Cache/LoadFeedFromCacheUseCaseTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "test_load_deliversCachedImagesOnLessThanSevenDaysOldCache()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

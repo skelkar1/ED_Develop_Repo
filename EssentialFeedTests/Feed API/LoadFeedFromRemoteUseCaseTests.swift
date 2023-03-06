@@ -9,7 +9,7 @@ import XCTest
 @testable import EssentialFeed
 
 //class RemoteFeelLoaderTests: XCTestCase {
-class RemoteFeelLoaderTests: XCTestCase {
+class LoadFeedFromRemoteUseCaseTests: XCTestCase {
     func test_init_doesNotRequestDataFromURL() {
         let (_, client) = makeSUT()
         
@@ -126,8 +126,8 @@ class RemoteFeelLoaderTests: XCTestCase {
         .failure(error)
     }
     
-    private func makeItem(id: UUID, description: String? = nil, location: String? = nil, imageURL: URL) -> (model: FeedItem, json: [String:Any]) {
-        let item = FeedItem(id: id, description: description, location: location, imageURL: imageURL)
+    private func makeItem(id: UUID, description: String? = nil, location: String? = nil, imageURL: URL) -> (model: FeedImage, json: [String:Any]) {
+        let item = FeedImage(id: id, description: description, location: location, imageURL: imageURL)
         let json = [
             "id" : id.uuidString,
             "description" : description,
