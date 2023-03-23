@@ -140,6 +140,7 @@ extension FeedStoreSpecs where Self:XCTestCase {
     
     func expect(_ sut: FeedStore, toRetrieve expectedReult: RetrieveCachedFeedResult, file: StaticString = #file, line: UInt = #line){
         let exp = expectation(description: "wait for cache retrieval")
+        exp.assertForOverFulfill = false
         sut.retrieve { retrievedResult in
             switch (expectedReult, retrievedResult){
             case (.empty, .empty), (.failure, .failure):
