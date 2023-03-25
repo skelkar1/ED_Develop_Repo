@@ -18,7 +18,7 @@ public final class CoreDataFeedStore: FeedStore {
     }
     
     public func retrieve(completion: @escaping RetrivalCompletion) {
-        completion(.empty)
+//        completion(.empty)
         let context = self.context
         context.perform {
             do{
