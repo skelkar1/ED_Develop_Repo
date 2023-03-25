@@ -64,6 +64,13 @@ final class CoreDataFeedStoreTests: XCTestCase, FeedStoreSpecs {
         
     }
     
+    func test_delete_deliversNoErrorOnEmptyCache() {
+
+            let sut = makeSUT()
+
+            assertThatDeleteDeliversNoErrorOnEmptyCache(on: sut)
+        }
+    
     //- MARK: Helpers
     private func makeSUT(file: StaticString = #file, line: UInt = #line) -> FeedStore {
         let storeBundle = Bundle(for: CoreDataFeedStore.self)
