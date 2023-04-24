@@ -33,9 +33,9 @@ public final class CoreDataFeedStore: FeedStore {
 //                            LocalFeedImage(id: $0.id, description: $0.description, location: $0.location, url: $0.url)
 //                        },
 //                                      timestamp: cache.timestamp))
-                    completion(.found(feed: cache.localFeed, timestamp: cache.timestamp))
+                    completion(.success(CachedFeed(feed: cache.localFeed, timestamp: cache.timestamp)))
                 } else {
-                    completion(.empty)
+                    completion(.success(.none))
                 }
 
             } catch {
