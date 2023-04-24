@@ -7,7 +7,7 @@
 
 import Foundation
 
-public typealias LoadFeedResult = Result<[FeedImage], Error>
+//public typealias LoadFeedResult = Result<[FeedImage], Error>
 
 //public enum LoadFeedResult {
 //    case success([FeedImage])
@@ -15,5 +15,6 @@ public typealias LoadFeedResult = Result<[FeedImage], Error>
 //}
 
 public protocol FeedLoader {
-    func load(completion: @escaping (LoadFeedResult) -> Void)
+    typealias Result = Swift.Result<[FeedImage], Error>
+    func load(completion: @escaping (Result) -> Void)
 }
